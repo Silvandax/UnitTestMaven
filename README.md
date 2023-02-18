@@ -1,2 +1,2 @@
 # UnitTestMaven
-I could not gey junit tests working in eclipse
+I could not get JUnit tests working in eclipse
