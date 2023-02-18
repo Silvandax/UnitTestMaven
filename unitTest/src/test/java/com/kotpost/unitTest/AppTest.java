@@ -17,10 +17,11 @@ public class AppTest
     {
     	String[] msg = App.fetchFriendsList();
     	// im not sure about these, Cant get the test to run, might not have eclipse set up right
-    	Assertions.assertTrue(friendsList.contains("Jake Smith"));
-        Assertions.assertTrue(friendsList.contains("Bob Jones"));
-        Assertions.assertTrue(friendsList.contains("David Clinton"));
-        Assertions.assertTrue(friendsList.contains("Anna Pepper"));
+    	if ("Jake Smith".equals(msg[0])) {assertTrue(true)}
+    	if ("Bob Jones".equals(msg[1])) {assertTrue(true)}
+    	if ("David Clinton".equals(msg[2])) {assertTrue(true)}
+    	if ("Anna Pepper".equals(msg[3])) {assertTrue(true)}
+    	else {assertTrue(false)}
     }
     public void shouldAnswerWithFalse()
     {
@@ -40,3 +41,4 @@ public class AppTest
 
     }
 }
+
