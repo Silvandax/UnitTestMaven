@@ -1,2 +1,2 @@
 # UnitTestMaven
-Testing eclipse and git usage.
+I could not gey junit tests working in eclipse
